@@ -1,0 +1,5 @@
+#!/bin/sh
+
+service ttnovember stop
+sleep 2
+shutdown -r 0

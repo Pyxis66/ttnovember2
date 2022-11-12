@@ -1,0 +1,22 @@
+server:
+  host: 127.0.0.1
+cloudSlicer:
+  apiHost: https://api.astroprint.com
+  boxrouter: wss://boxrouter.astroprint.com
+folder:
+  uploads: /TTNovemberFiles/uploads
+  timelapse: /TTNovemberFiles/timelapse
+  timelapse_tmp: /TTNovemberFiles/timelapse/tmp
+  watched: /TTNovemberFiles/watched
+  userPlugins: /TTNovemberFiles/plugins
+  logs: /var/log/ttnovember
+wifi:
+   hotspotDevice: wlan1
+system:
+  actions:
+  - action: shutdown
+    command: /usr/local/sbin/tt-shutdown
+  - action: reboot
+    command: /usr/local/sbin/tt-reboot
+  - action: ttnovember-restart
+    command: service ttnovember restart

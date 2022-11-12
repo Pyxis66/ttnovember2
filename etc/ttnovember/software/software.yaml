@@ -1,0 +1,9 @@
+version:
+  major: 0
+  minor: 11
+  build: "22"
+  commit: "00c57c5732cfee11f7d086bc5f1df01d6758d5d3"
+platform: rpi
+variant:
+  id: de51cd1a57c14ef28f911307c9acb5c5
+  name: TTNovember

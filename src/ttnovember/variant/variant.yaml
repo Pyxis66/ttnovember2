@@ -1,0 +1,19 @@
+networkName: ttnovember
+supportLink: "#help"
+suppliesLink: "#supplies"
+productName: "TTNovember"
+productLink: "https://www.thingnthinks.co.kr"
+defaultHostname: ttnovember
+welcomeMsgHeader: 'TT November'
+welcomeMsgContent: >
+ <h2 class="bold">언제나. 어디서나</h2>
+ <p>
+  TT November와 함께 편안하게
+ </p>
+congratsMsg: <b>유후~!</b> 설치가 완료되었습니다.
+share:
+   facebook:
+      link: https://www.thingnthinks.co.kr
+   twitter:
+      link: https://www.thingnthinks.co.kr
+      copy: "설치 완료"
